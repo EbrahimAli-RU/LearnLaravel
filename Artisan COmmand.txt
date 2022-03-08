@@ -1,0 +1,15 @@
+Php artisan make:controller Customer(name)
+
+First config your phpmyadmin
+
+Php artisan config:Cache
+Php artisan migrate //// send table to phpmyadmin
+Php artisan make:migration create_customer_table //// create new table
+Php artisan make:migration add_columns_to_customers_table  /////// In order to add new columns
+ 
+Php artisan migrate:rollback
+Php artisan migrate:refresh
+
+
+Php artisan make:model same_as_table_name /// 
+Php artisan make:model Product(name –migration
